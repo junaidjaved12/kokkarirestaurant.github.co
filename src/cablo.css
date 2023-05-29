@@ -1,0 +1,141 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+.rest {
+    display: block;
+
+}
+.hid {
+    display: none;
+}
+.clr {
+    background-color: darkgray;
+}
+.bg {
+    border: 1px solid rgba(19, 4, 4, 0.87);
+   }
+.hed {
+    margin: 20px 130px;
+}
+.boly{
+    font-size: 40px;
+  }
+  .table{
+    width: 350px;
+    height: 500px;
+  }
+  .full {
+    display: none;
+  }
+  .showone{
+    display: inline;
+  }
+  .noone {
+    display: none;
+  }
+  .saze {
+    font-size: 25px;
+}
+.wide {
+    width: 25rem; 
+    height: 20rem;
+    
+  }
+
+
+.seze {
+    width: 250px;
+}
+.flore {
+    width: 500px; /* Set the width according to your requirements */
+  }
+  
+  .imreg {
+    float: left;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .kuj {
+    border-bottom: 0;
+  }
+  
+ 
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    
+    font-weight: bold;
+  }
+  
+.end-text {
+    text-align: end;
+}
+.change {
+    display: none;
+}
+.car {
+    text-align: center;
+}
+
+
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+    .rest {
+        display: none;
+    }
+    .hid {
+        display: flex;
+        width: 200px;
+        height: 100px;
+    }
+    .clr {
+        background-color: darkgray;
+        
+    }
+    
+   
+    .full {
+        display: block;
+    }
+    .bg {
+        display: none;
+    }
+    .noone {
+        display: block;
+    }
+    .showone {
+        display: none;
+    }
+    .table {
+        width: 650px;
+        height: 970px;
+    }
+    .change {
+        display: block;
+        width: 100%;
+        height: 80%;
+    }
+    .ghar {
+        display: none;
+    }
+}

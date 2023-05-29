@@ -1,0 +1,239 @@
+
+
+nav {
+  background-color: #bd1212;
+}
+.jad {
+  margin: 20px 130px;
+}
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.card12 {
+  text-align: center;
+}
+.cap{
+  width: 20px;
+  height: 20px;
+}
+.bg-darks {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.cont {
+  font-size: x-large;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.bolo {
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
+.word{
+  display: flex;
+   justify-content: center;
+   text-decoration: none;
+}
+
+.hid {
+  display: none;
+}
+.bg {
+  border: 1px solid black;
+}
+.hed {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.boly {
+  font-size: 40px;
+}
+.tables
+ {
+  width: 400px;
+  height: 500px;
+  
+}
+.full {
+  display: none;
+}
+.table1 {
+  display: none;
+}
+.table2 {
+  display: none;
+}
+.showone {
+  display: inline;
+}
+.noone {
+  display: none;
+}
+.saze {
+  font-size: 25px;
+}
+.wide {
+  width: 25rem;
+  height: 20rem;
+}
+.seze {
+  width: 250px;
+}
+.flore {
+  width: 500px;
+}
+.imreg {
+  float: left;
+  margin-right: 10px;
+}
+.kuj {
+  border-bottom: 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+.end-text {
+  text-align: end;
+
+}
+.change {
+  display: none;
+}
+.change1 {
+  display: block;
+}
+.wait {
+  font-size: 30px;
+}
+.waits {
+  font-size: 25px;
+}
+.ml {
+margin-left: 30px;
+}
+.car {
+  text-align: center;
+}
+.ghar {
+  display: block;
+}
+.sky {
+  display: block;
+}
+.sky1 {
+  display: none;
+}
+.wade {
+  display: block;
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .wade  {
+    display: block;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  
+
+  
+  .center-icon {
+    max-height: 100%;
+    margin: 0 auto;
+  }
+.rest {
+    display: none;
+}
+.hid {
+    display: block;
+    width: 200px;
+    height: 100px;
+
+}
+.clr {
+    background-color: grey;
+}
+.full {
+    display: block;
+
+}
+.bg {
+    display: none;
+}
+.noone {
+    display: block;
+}
+.showone {
+    display: none;
+
+}
+/* .table {
+    width: 650px;
+    height: 970px;
+
+} */
+.change {
+    display: block;
+    width: 90%;
+    height: 80%;
+    margin-left: 30px;
+}
+.ghar {
+    display: none;
+}
+ 
+  .imreg {
+    width: 300; height: 450;
+  }
+  .table1 {
+    height: 100%;
+    width: 80%;
+
+    display: block;
+  }
+  .table2 {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    display: block;
+  }
+  .tables {
+    display: none;
+  }
+  .flate {
+    display: none;
+  }
+  .sky {
+    display: none;
+  }
+  .sky1 {
+    display: block;
+  }
+  .jad {
+    display: none;
+  }
+}
